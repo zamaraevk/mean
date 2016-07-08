@@ -6,7 +6,6 @@
   ],
   "description": "boilerplate for mean_stack",
   "main": "server.js",
-  "postinstall": "bower install",
   "license": "konstantin.nyc",
   "ignore": [
     "**/.*",
