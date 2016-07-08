@@ -28,4 +28,4 @@
     - links.js
   - config.js
 
-14.   
+14.  Creating angular part: client/app folder. Services, controllers, views, app.js
