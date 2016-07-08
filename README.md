@@ -8,3 +8,4 @@
 6. .bowerrc
 7. install bower dependencies: angular, angular-route, bootstrap, jquery
 8. include them in index.html
+9.
