@@ -10,8 +10,13 @@
   "ignore": [
     "**/.*",
     "node_modules",
-    "bower_components",
+    "client/lib",
     "test",
     "tests"
-  ]
+  ],
+  "dependencies": {
+    "angular": "^1.5.7",
+    "angular-route": "^1.5.7",
+    "bootstrap": "^3.3.6"
+  }
 }
