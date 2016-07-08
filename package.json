@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
-    "postinstall": "bower install"
+     "postinstall": "./node_modules/bower/bin/bower install"
   },
   "repository": {
     "type": "git",
@@ -20,6 +20,7 @@
   "homepage": "https://github.com/zamaraevk/mean#readme",
   "dependencies": {
     "bookshelf": "^0.10.0",
+    "bower": "^1.7.9",
     "express": "^4.14.0",
     "knex": "^0.11.7",
     "sqlite3": "^3.1.4"
