@@ -1,0 +1,17 @@
+{
+  "name": "mean",
+  "homepage": "http://konstantin.nyc",
+  "authors": [
+    "Konstantin Zamaraev"
+  ],
+  "description": "boilerplate for mean_stack",
+  "main": "server.js",
+  "license": "konstantin.nyc",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

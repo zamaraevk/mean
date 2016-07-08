@@ -1,0 +1,20 @@
+{
+  "name": "mean",
+  "version": "1.0.0",
+  "description": "mean boilerplate",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zamaraevk/mean.git"
+  },
+  "author": "Konstantin Zamaraev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zamaraevk/mean/issues"
+  },
+  "homepage": "https://github.com/zamaraevk/mean#readme"
+}
