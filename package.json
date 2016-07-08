@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/zamaraevk/mean/issues"
   },
-  "homepage": "https://github.com/zamaraevk/mean#readme"
+  "homepage": "https://github.com/zamaraevk/mean#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
 }
