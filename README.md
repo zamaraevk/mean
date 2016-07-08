@@ -10,3 +10,4 @@
 8. include them in index.html
 9. create styles.css
 10. install express
+11. make and run server.js with express
