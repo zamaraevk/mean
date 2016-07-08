@@ -12,3 +12,14 @@
 10. install express
 11. make and run server.js with express
 12. heroku create, git push heroku master -- Your "Hello, World!" now LIVE!
+
+13. Adding bookshelf and knex:
+- db folder
+  - .gitkeep // empty file
+- bookshelf folder
+  - collection folder
+    - links.js
+  - models folder
+    - links.js
+  - config.js
+14.   
