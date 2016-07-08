@@ -6,6 +6,11 @@
 4. Procfile: web: node server.js
 5. .gitignore
 6. .bowerrc
+
+6.5 VERY IMPORTANT!!! Install bower:
+  1) npm install bower --save
+  2) "postinstall": "./node_modules/bower/bin/bower install"(in package.json)
+
 7. install bower dependencies: angular, angular-route, bootstrap, jquery
 8. include them in index.html
 9. create styles.css
@@ -22,4 +27,5 @@
   - models folder
     - links.js
   - config.js
+
 14.   

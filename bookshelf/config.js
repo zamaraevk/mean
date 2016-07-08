@@ -9,19 +9,18 @@ var db = require('knex')({
     password: 'password',
     database: 'shortlydb',
     charset: 'utf8',
-    filename: path.join(__dirname, '../db/shortly.sqlite')
+    filename: path.join(__dirname, '../db/users.sqlite')
   }
 });
 
-db.schema.hasTable('urls').then(function(exists) {
+db.schema.hasTable('users').then(function(exists) {
   if (!exists) {
-    db.schema.createTable('urls', function (link) {
+    db.schema.createTable('users', function (link) {
       link.increments('id').primary();
-      link.string('url', 255);
-      link.string('base_url', 255);
-      link.string('code', 100);
-      link.string('title', 255);
-      link.integer('visits');
+      link.string('firstName', 255);
+      link.string('lastName', 255);
+      link.integer('age', 10);
+      link.string('occupation', 255);
       link.timestamps();
     }).then(function (table) {
       console.log('Created Table', table);
