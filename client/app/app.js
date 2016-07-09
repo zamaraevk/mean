@@ -6,7 +6,7 @@ angular.module('myApp', [
 .config(function($routeProvider, $httpProvider) {
   $routeProvider
     .when('/', {
-      templateUrl: 'app/userInput/userInput.html',
+      templateUrl: 'app/user/userInput.html',
       controller: 'userInputController'
     })
     .otherwise({
