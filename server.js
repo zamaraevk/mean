@@ -10,5 +10,6 @@ app.use(express.static(path.join(__dirname, '/client')));
 // });
 
 app.listen(port, function () {
+  console.log(__dirname);
   console.log('Example app listening on port ' + port);
 });
